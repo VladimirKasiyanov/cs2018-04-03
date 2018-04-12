@@ -25,7 +25,19 @@ package by.it.KasiyanovVladimir.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        int i = 1;
+        int sum = 1;
+        while (sum <= number){
+            System.out.print(sum + ",");
+            i++;
+            sum += i;
+        }
+    }
 
 }

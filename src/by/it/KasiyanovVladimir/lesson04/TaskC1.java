@@ -38,7 +38,136 @@ package by.it.KasiyanovVladimir.lesson04;
 */
 
 
+import java.util.Scanner;
+
 public class TaskC1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        int salary = scanner.nextInt();
+        String months[] = {"0","январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь","13","14"};
+        double resultSalary = 0.0;
+        double numberOfTheBeast = salary * 1.5;
+
+
+        if (salary <= 300 || salary >= 3000){
+            System.out.println("Мы вам перезвоним!");
+        }
+        else{
+            for (int month = 0; month < 15; month++) {
+                if (numberOfTheBeast == 666.0) {
+                    switch (month) {
+                        case 0:
+                            resultSalary = salary * 0.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 1:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                    }
+                }
+                else if (salary == 666){
+                        switch (month) {
+                            case 0:
+                                resultSalary = salary * 0.0;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                            case 1:
+                                resultSalary = salary * 1.5;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                            case 2:
+                                resultSalary = salary * 1.5;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                            case 3:
+                                resultSalary = salary * 1.5;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                            case 4:
+                                resultSalary = salary * 1.5;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                            case 5:
+                                resultSalary = salary * 1.5;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                            case 6:
+                                resultSalary = salary * 1.0;
+                                System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                                break;
+                        }
+                    }
+                else {
+                    switch (month) {
+                        case 0:
+                            resultSalary = salary * 0.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 1:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 2:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 3:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 4:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 5:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 6:
+                            resultSalary = salary * 1.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 7:
+                            resultSalary = salary * 1.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 8:
+                            resultSalary = salary * 1.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 9:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 10:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 11:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 12:
+                            resultSalary = salary * 1.5;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 13:
+                            resultSalary = salary * 0.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                        case 14:
+                            resultSalary = salary * 0.0;
+                            System.out.println("За месяц " + months[month] + " начислено $" + resultSalary);
+                            break;
+                    }
+                }
+
+            }
+        }
+    }
+
 
 
 }
