@@ -1,4 +1,6 @@
 package by.it.KasiyanovVladimir.lesson05;
+import java.util.Arrays;
+import java.util.Scanner;
 
 /*
 Один большой массив и два маленьких
@@ -20,6 +22,30 @@ b=[11, 22, 33, 44, 55, 66, 77, 88, 99, 0]
 
 */
 
-public class TaskB2 {
 
+public class TaskB2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int[] arr = new int[20];
+        int[] a = new int[10];
+        int[] b = new int[10];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
+
+        for (int i = 0; i < 10; i++) {
+            a[i] = arr[i];
+        }
+        for (int i = 10; i < arr.length; i++) {
+            int j = i - 10;
+            b[j] = arr[i];
+        }
+
+        System.out.println("a=" + Arrays.toString(a));
+        System.out.println("b=" + Arrays.toString(b));
+
+    }
 }
